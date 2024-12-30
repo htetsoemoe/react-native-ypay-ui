@@ -25,10 +25,10 @@ export default function ActionButton({ color, icon, label, path }) {
                     size={34}
                     color="white"
                 />
-                <Text style={styles.text.actionText}>
-                    {label ? label : "Label"}
-                </Text>
             </View>
+            <Text style={styles.text.actionText}>
+                {label ? label : "Label"}
+            </Text>
         </TouchableOpacity>
     )
 }

@@ -4,7 +4,7 @@ import React from 'react'
 export default function index() {
   return (
     <View>
-      <Text>Home</Text>
+      <Text>This is a Home Page Yayyyy!.</Text>
     </View>
   )
 }
